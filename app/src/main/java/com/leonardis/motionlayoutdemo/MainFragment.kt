@@ -24,13 +24,12 @@ class MainFragment : Fragment() {
 
     private fun setupListeners() {
         button_basic.setOnClickListener {
-            navigateToBasicImplementation()
+            findNavController().navigate(MainFragmentDirections.actionMainFragmentToBasicUsage())
         }
-    }
 
-    private fun navigateToBasicImplementation() {
-        val action = MainFragmentDirections.actionMainFragmentToBasicUsage()
-        findNavController().navigate(action)
+        button_alpha.setOnClickListener {
+            findNavController().navigate(MainFragmentDirections.actionMainFragmentToAlphaUsage())
+        }
     }
 
     companion object {

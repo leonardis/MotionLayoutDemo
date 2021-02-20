@@ -5,4 +5,6 @@
     <string name="size_transformation">Size transformation</string>
     <string name="key_frame">Key frame</string>
     <string name="complex_view">Complex view</string>
+    <string name="hide_animation">Hide with animation</string>
+    <string name="show_animation">Show with animation</string>
 </resources>

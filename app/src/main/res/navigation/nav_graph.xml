@@ -16,6 +16,11 @@
             app:destination="@id/basicUsage"
             />
 
+        <action
+            android:id="@+id/action_mainFragment_to_alphaUsage"
+            app:destination="@id/alphaUsage"
+            />
+
     </fragment>
 
     <fragment
@@ -23,5 +28,11 @@
         android:name="com.leonardis.motionlayoutdemo.BasicUsageFragment"
         android:label="Basic"
         tools:layout="@layout/fragment_basic_usage" />
+
+    <fragment
+        android:id="@+id/alphaUsage"
+        android:name="com.leonardis.motionlayoutdemo.AlphaUsageFragment"
+        android:label="Alpha"
+        tools:layout="@layout/fragment_alpha_usage" />
 
 </navigation>
