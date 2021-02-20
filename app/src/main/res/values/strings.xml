@@ -5,6 +5,4 @@
     <string name="size_transformation">Size transformation</string>
     <string name="key_frame">Key frame</string>
     <string name="complex_view">Complex view</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

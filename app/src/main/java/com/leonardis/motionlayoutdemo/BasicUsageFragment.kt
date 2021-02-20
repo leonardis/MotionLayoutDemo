@@ -18,9 +18,4 @@ class BasicUsageFragment : Fragment() {
     ): View? {
         return inflater.inflate(R.layout.fragment_basic_usage, container, false)
     }
-
-    companion object {
-        @JvmStatic
-        fun newInstance() = BasicUsageFragment()
-    }
 }
